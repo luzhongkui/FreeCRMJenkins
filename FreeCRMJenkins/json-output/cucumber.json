@@ -1,0 +1,404 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Free CRM3 Login Test Scenario",
+        "description": "",
+        "id": "free-crm2-login-feature;free-crm3-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12266367300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "on login page \"webdriver.chrome.driver\" and \"C:\\Users\\luzhongk\\Selenium\\WebDriver\\chromedriver.exe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver.chrome.driver",
+                  "offset": 15
+                },
+                {
+                  "val": "C:\\Users\\luzhongk\\Selenium\\WebDriver\\chromedriver.exe",
+                  "offset": 45
+                }
+              ],
+              "location": "LoginSteps.on_login_page(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31965700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of the page",
+            "match": {
+              "location": "LoginSteps.title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4357840200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter \"will1\" and \"will\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "will1",
+                  "offset": 7
+                },
+                {
+                  "val": "will",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61642200,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat LoginSteps_Outline.LoginSteps.home_page_validate(LoginSteps.java:56)\r\n\tat ✽.Then home page validate(login.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "home page validate",
+            "match": {
+              "location": "LoginSteps.home_page_validate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "logout home page",
+            "match": {
+              "location": "LoginSteps.logout_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Free CRM3 Login Test Scenario",
+        "description": "",
+        "id": "free-crm2-login-feature;free-crm3-login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12164148300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "on login page \"webdriver.gecko.driver\" and \"C:\\Users\\luzhongk\\Selenium\\WebDriver\\geckodriver.exe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver.gecko.driver",
+                  "offset": 15
+                },
+                {
+                  "val": "C:\\Users\\luzhongk\\Selenium\\WebDriver\\geckodriver.exe",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginSteps.on_login_page(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14673000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of the page",
+            "match": {
+              "location": "LoginSteps.title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3904939600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter \"will1\" and \"will\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "will1",
+                  "offset": 7
+                },
+                {
+                  "val": "will",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29856800,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat LoginSteps_Outline.LoginSteps.home_page_validate(LoginSteps.java:56)\r\n\tat ✽.Then home page validate(login.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "home page validate",
+            "match": {
+              "location": "LoginSteps.home_page_validate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "logout home page",
+            "match": {
+              "location": "LoginSteps.logout_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Free CRM3 Login Test Scenario",
+        "description": "",
+        "id": "free-crm2-login-feature;free-crm3-login-test-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11517314800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "on login page \"webdriver.edge.driver\" and \"C:\\Users\\luzhongk\\Selenium\\WebDriver\\msedgedriver.exe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver.edge.driver",
+                  "offset": 15
+                },
+                {
+                  "val": "C:\\Users\\luzhongk\\Selenium\\WebDriver\\msedgedriver.exe",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginSteps.on_login_page(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20723700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of the page",
+            "match": {
+              "location": "LoginSteps.title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5871310000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter \"will\" and \"will\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "will",
+                  "offset": 7
+                },
+                {
+                  "val": "will",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50323400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "home page validate",
+            "match": {
+              "location": "LoginSteps.home_page_validate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14326309000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "logout home page",
+            "match": {
+              "location": "LoginSteps.logout_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Free CRM3 Login Test Scenario",
+        "description": "",
+        "id": "free-crm2-login-feature;free-crm3-login-test-scenario;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8026172500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "on login page \"webdriver.ie.driver\" and \"C:\\Users\\luzhongk\\Selenium\\WebDriver\\IEDriverServer64.exe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver.ie.driver",
+                  "offset": 15
+                },
+                {
+                  "val": "C:\\Users\\luzhongk\\Selenium\\WebDriver\\IEDriverServer64.exe",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginSteps.on_login_page(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29591200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of the page",
+            "match": {
+              "location": "LoginSteps.title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50566313900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter \"will\" and \"will\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "will",
+                  "offset": 7
+                },
+                {
+                  "val": "will",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 244687200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "home page validate",
+            "match": {
+              "location": "LoginSteps.home_page_validate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12901945400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "logout home page",
+            "match": {
+              "location": "LoginSteps.logout_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM2 Login Feature",
+    "description": "",
+    "id": "free-crm2-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
