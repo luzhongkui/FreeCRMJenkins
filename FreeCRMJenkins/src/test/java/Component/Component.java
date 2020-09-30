@@ -94,7 +94,7 @@ public class Component {
 		driver.quit();		 
 	}
     public WebElement username(WebDriver driver) {
-    	   WebElement username = driver.findElement(By.name("user_name"));
+    	   WebElement username = driver.findElement(By.name("user_name1"));
     	   return username ;
     }
     public WebElement password(WebDriver driver) {

@@ -153,14 +153,14 @@ formatter.match({
   "location": "LoginSteps.on_login_page(String,String)"
 });
 formatter.result({
-  "duration": 12266367300,
+  "duration": 10485216900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.title_of_the_page()"
 });
 formatter.result({
-  "duration": 31965700,
+  "duration": 13944300,
   "status": "passed"
 });
 formatter.match({
@@ -177,14 +177,14 @@ formatter.match({
   "location": "LoginSteps.enter_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 4357840200,
+  "duration": 3678831600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.home_page_validate()"
 });
 formatter.result({
-  "duration": 61642200,
+  "duration": 100076400,
   "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat LoginSteps_Outline.LoginSteps.home_page_validate(LoginSteps.java:56)\r\n\tat ✽.Then home page validate(login.feature:17)\r\n",
   "status": "failed"
 });
@@ -249,14 +249,14 @@ formatter.match({
   "location": "LoginSteps.on_login_page(String,String)"
 });
 formatter.result({
-  "duration": 12164148300,
+  "duration": 10872631900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.title_of_the_page()"
 });
 formatter.result({
-  "duration": 14673000,
+  "duration": 24160300,
   "status": "passed"
 });
 formatter.match({
@@ -273,14 +273,14 @@ formatter.match({
   "location": "LoginSteps.enter_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 3904939600,
+  "duration": 3932940700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.home_page_validate()"
 });
 formatter.result({
-  "duration": 29856800,
+  "duration": 34066200,
   "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat LoginSteps_Outline.LoginSteps.home_page_validate(LoginSteps.java:56)\r\n\tat ✽.Then home page validate(login.feature:17)\r\n",
   "status": "failed"
 });
@@ -345,14 +345,14 @@ formatter.match({
   "location": "LoginSteps.on_login_page(String,String)"
 });
 formatter.result({
-  "duration": 11517314800,
+  "duration": 10779206700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.title_of_the_page()"
 });
 formatter.result({
-  "duration": 20723700,
+  "duration": 117604700,
   "status": "passed"
 });
 formatter.match({
@@ -369,21 +369,21 @@ formatter.match({
   "location": "LoginSteps.enter_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 5871310000,
+  "duration": 4872960700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.home_page_validate()"
 });
 formatter.result({
-  "duration": 50323400,
+  "duration": 25855900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.logout_home_page()"
 });
 formatter.result({
-  "duration": 14326309000,
+  "duration": 13151695200,
   "status": "passed"
 });
 formatter.scenario({
@@ -441,14 +441,14 @@ formatter.match({
   "location": "LoginSteps.on_login_page(String,String)"
 });
 formatter.result({
-  "duration": 8026172500,
+  "duration": 7598038800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.title_of_the_page()"
 });
 formatter.result({
-  "duration": 29591200,
+  "duration": 25844100,
   "status": "passed"
 });
 formatter.match({
@@ -465,21 +465,21 @@ formatter.match({
   "location": "LoginSteps.enter_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 50566313900,
+  "duration": 50301071700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.home_page_validate()"
 });
 formatter.result({
-  "duration": 244687200,
+  "duration": 222712400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.logout_home_page()"
 });
 formatter.result({
-  "duration": 12901945400,
+  "duration": 12932915700,
   "status": "passed"
 });
 });
