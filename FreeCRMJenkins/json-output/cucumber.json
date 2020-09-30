@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12266367300,
+              "duration": 11512583800,
               "status": "passed"
             },
             "line": 14,
@@ -38,7 +38,7 @@
           },
           {
             "result": {
-              "duration": 31965700,
+              "duration": 15318600,
               "status": "passed"
             },
             "line": 15,
@@ -50,8 +50,9 @@
           },
           {
             "result": {
-              "duration": 4357840200,
-              "status": "passed"
+              "duration": 87565000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027user_name1\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LBNL11443\u0027, ip: \u0027192.168.2.12\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:6473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1328bb779efb7ad5e75e5c0badfb9df1\n*** Element info: {Using\u003dname, value\u003duser_name1}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Component.Component.username(Component.java:97)\r\n\tat LoginSteps_Outline.LoginSteps.enter_username_and_password(LoginSteps.java:38)\r\n\tat ✽.Then enter \"will1\" and \"will\"(login.feature:16)\r\n",
+              "status": "failed"
             },
             "line": 16,
             "name": "enter \"will1\" and \"will\"",
@@ -76,9 +77,7 @@
           },
           {
             "result": {
-              "duration": 61642200,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat LoginSteps_Outline.LoginSteps.home_page_validate(LoginSteps.java:56)\r\n\tat ✽.Then home page validate(login.feature:17)\r\n",
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "home page validate",
@@ -110,7 +109,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12164148300,
+              "duration": 11015186200,
               "status": "passed"
             },
             "line": 14,
@@ -136,7 +135,7 @@
           },
           {
             "result": {
-              "duration": 14673000,
+              "duration": 11328100,
               "status": "passed"
             },
             "line": 15,
@@ -148,8 +147,9 @@
           },
           {
             "result": {
-              "duration": 3904939600,
-              "status": "passed"
+              "duration": 33220100,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name\u003d\u0027user_name1\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LBNL11443\u0027, ip: \u0027192.168.2.12\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 109944, moz:profile: C:\\Windows\\Temp\\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 0fb17d54-e1d8-4f01-a369-7e232dce177c\n*** Element info: {Using\u003dname, value\u003duser_name1}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Component.Component.username(Component.java:97)\r\n\tat LoginSteps_Outline.LoginSteps.enter_username_and_password(LoginSteps.java:38)\r\n\tat ✽.Then enter \"will1\" and \"will\"(login.feature:16)\r\n",
+              "status": "failed"
             },
             "line": 16,
             "name": "enter \"will1\" and \"will\"",
@@ -174,9 +174,7 @@
           },
           {
             "result": {
-              "duration": 29856800,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat LoginSteps_Outline.LoginSteps.home_page_validate(LoginSteps.java:56)\r\n\tat ✽.Then home page validate(login.feature:17)\r\n",
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "home page validate",
@@ -208,7 +206,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11517314800,
+              "duration": 11200674000,
               "status": "passed"
             },
             "line": 14,
@@ -234,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 20723700,
+              "duration": 68635000,
               "status": "passed"
             },
             "line": 15,
@@ -246,8 +244,9 @@
           },
           {
             "result": {
-              "duration": 5871310000,
-              "status": "passed"
+              "duration": 73022100,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027user_name1\u0027]\"}\n  (Session info: MicrosoftEdge\u003d85.0.564.63)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LBNL11443\u0027, ip: \u0027192.168.2.12\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 85.0.564.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:6552}, msedge: {msedgedriverVersion: 85.0.564.63 (54dee5e1d729e4..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir1...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3cb2b99fbf1ba7de652379f6d4de5da9\n*** Element info: {Using\u003dname, value\u003duser_name1}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Component.Component.username(Component.java:97)\r\n\tat LoginSteps_Outline.LoginSteps.enter_username_and_password(LoginSteps.java:38)\r\n\tat ✽.Then enter \"will\" and \"will\"(login.feature:16)\r\n",
+              "status": "failed"
             },
             "line": 16,
             "name": "enter \"will\" and \"will\"",
@@ -272,8 +271,7 @@
           },
           {
             "result": {
-              "duration": 50323400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "home page validate",
@@ -284,8 +282,7 @@
           },
           {
             "result": {
-              "duration": 14326309000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "logout home page",
@@ -306,7 +303,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8026172500,
+              "duration": 7864078200,
               "status": "passed"
             },
             "line": 14,
@@ -332,7 +329,7 @@
           },
           {
             "result": {
-              "duration": 29591200,
+              "duration": 52378600,
               "status": "passed"
             },
             "line": 15,
@@ -344,8 +341,9 @@
           },
           {
             "result": {
-              "duration": 50566313900,
-              "status": "passed"
+              "duration": 573519000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to find element with css selector \u003d\u003d *[name\u003d\u0027user_name1\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LBNL11443\u0027, ip: \u0027192.168.2.12\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:34680/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 4e8cdd3c-8e92-4c51-9923-132f3ba7d019\n*** Element info: {Using\u003dname, value\u003duser_name1}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Component.Component.username(Component.java:97)\r\n\tat LoginSteps_Outline.LoginSteps.enter_username_and_password(LoginSteps.java:38)\r\n\tat ✽.Then enter \"will\" and \"will\"(login.feature:16)\r\n",
+              "status": "failed"
             },
             "line": 16,
             "name": "enter \"will\" and \"will\"",
@@ -370,8 +368,7 @@
           },
           {
             "result": {
-              "duration": 244687200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "home page validate",
@@ -382,8 +379,7 @@
           },
           {
             "result": {
-              "duration": 12901945400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "logout home page",

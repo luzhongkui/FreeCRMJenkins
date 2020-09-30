@@ -6,7 +6,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features ="C:\\Users\\luzhongk\\eclipse-workspace\\FreeCRMJenkins\\FreeCRMJenkins\\src\\test\\java\\Feature_Outline"
+		features ="C:\\Users\\luzhongk\\git\\FreeCRMJenkins\\FreeCRMJenkins\\src\\test\\java\\Feature_Outline"
+		//features = "..\\FreeCRMJenkins\\src\\test\\java\\Feature_Outline"
 		,glue = {"LoginSteps_Outline"},
 		format = {"pretty","html:test-output","json:json-output/cucumber.json","junit:junit-xml/testng-results.xml"},
 		monochrome = true,
